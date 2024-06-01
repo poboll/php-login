@@ -29,7 +29,7 @@
             if(isset($_SESSION["user"])){
                 echo "欢迎".$_SESSION["user"]."登录<a href='exit.php'>退出</a>";
             } else {
-                echo "未登录<a href='login.html'>登录</a>/<a href='sign.php'>注册</a>";
+                echo "未登录<a href='login.html'>登录</a>/<a href='sign.html'>注册</a>";
             }
         ?>
     </header>
